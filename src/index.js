@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react'; // lets us build in react code
+import ReactDOM from 'react-dom'; // the react-robot building the application
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';

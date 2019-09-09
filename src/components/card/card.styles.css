@@ -1,0 +1,27 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, coral, khaki );;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.15s ease-out;
+  font-family: 'Segoe UI';
+}
+
+.card-container:hover {
+  transform: scale(1.02);
+}
+
+img {
+  border: 6px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 2px;
+  background-color: rgba(255,255,255,0.2);
+  max-width: 200px;
+  max-height: 200px;
+}
